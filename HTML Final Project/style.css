@@ -1,0 +1,161 @@
+
+*{
+    cursor: url("cursor.png"), auto ;
+}
+
+body{
+    margin: 1em 10% 0 10%;
+    background-image: url(photo-1487621167305-5d248087c724.jpg);
+    background-size: cover;
+    font-family: monospace;
+}
+
+header,nav{
+    text-align: center;
+}
+
+nav a{
+    border-radius: 15px;
+    background-color: #AFB8C2;
+    padding: 7.5px;
+    display: inline-block;
+    cursor: url("cursor.png"), auto ;
+}
+
+nav a:hover{
+    border: 2px solid grey;
+    transition: 1s;
+}
+
+.about,.Education,.skills,.projects{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-color: #AFB8C2;
+    padding: 20px;
+}
+
+.about{
+    text-align: center;
+}
+
+.Education{
+    background-color: #576878;
+    h2{
+        text-align: center;
+    }
+}
+
+.first-ul,.second-ul{
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+.skills{
+    background-color: #394B5B;
+    h2{
+        text-align: center;
+    }
+}
+
+.projects{
+    background-color: #283440;
+    h2{
+        text-align: center;
+    }
+}
+
+.about:hover,.Education:hover,.skills:hover,.projects:hover{
+    border: 2px solid grey;
+    background-color: white;
+    transition: 1s;
+}
+
+.Education:hover{
+    background-color:  #AFB8C2;
+}
+
+.skills:hover{
+    background-color: #576878;
+}
+
+.projects:hover{
+    background-color: #394B5B
+}
+
+.go-pro1,.go-pro2,.go-pro3{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 0.3em;
+}
+
+footer{
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.p2,.p3,.p4{
+    display: inline-block;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+.project-1,.project-2,.project-3{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-color: #AFB8C2;
+    padding: 20px;
+}
+
+.project-2{
+    background-color: #576878;
+}
+
+.project-3{
+    background-color: #394B5B;
+}
+
+.project-1:hover,.project-2:hover,.project-3:hover{
+    border: 2px solid grey;
+    background-color: white;
+    transition: 1s;
+}
+
+.project-2:hover{
+    background-color:  #AFB8C2;
+}
+
+.project-3:hover{
+    background-color: #576878;
+}
+
+.a1,.a2,.a3{
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+.form,.social-media{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-color: #AFB8C2;
+    padding: 20px;
+}
+
+.social-media{
+    background-color: #576878;
+}
+
+.form:hover,.social-media:hover{
+    border: 2px solid grey;
+    background-color: white;
+    transition: 1s;
+}
+
+.social-media:hover{
+    background-color: #AFB8C2;
+}
+
